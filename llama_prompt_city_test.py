@@ -6,6 +6,9 @@ from langchain_community.llms import LlamaCpp
 
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
+# model_path="models/qwen2.5-coder-7b-instruct-q5_k_m.gguf",
+
+
 # net issue
 llm = LlamaCpp(
     model_path="models/llama-2-7b-chat.Q3_K_M.gguf",
