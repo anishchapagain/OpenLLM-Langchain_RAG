@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 llm = Llama(
-    model_path="qwen2.5-coder-7b-instruct-q5_k_m.gguf",
+    model_path="qwen2.5-coder-7b-instruct-q4_k_m.gguf",
     chat_format="chatml",  # Make sure this matches your model
     n_ctx=4096,
 )
