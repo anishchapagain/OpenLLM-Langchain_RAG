@@ -10,6 +10,7 @@ model = InferenceClientModel( # HfApiModel
     custom_role_conversions=None,
     api_key="ADD_HF_API_KEY", # ADD_HF_API_KEY
 )
+
 # Step 2: Create the agent
 # agent = CodeAgent(
 #     model=model,
